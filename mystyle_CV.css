@@ -1,0 +1,39 @@
+/* combinator selector */
+.bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+/* combinator selector */
+.bar li{
+    float: left;
+}
+
+/* combinator selector */
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+/* pseudo-class selector */
+li a:hover:not(.active){
+    background-color: gray;
+}
+
+/* simple selector */
+table{
+    width: 100%;
+    background-color: rgb(244, 250, 154);
+}
+
+/* pseudo-elements selector */
+div p::first-letter{
+    color: orange;
+    font-size: 200%;
+}
